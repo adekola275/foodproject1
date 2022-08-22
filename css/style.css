@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:  "Amatic SC", sans-serif;
+}
+.navbar>.container-fluid{
+    background-color:rgba(241, 238, 238, 0.801);
+    color: #fff !important;
+    
+}
+/* background image */
+.bgimg{
+    background-image: url(../images/hamburger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+      min-height: 90%;
+}
+/* menu */
+.container{
+    background-color: black;
+}
+#menu {
+    display: block;
+    color: white;
+}
+#menu>h4{
+    font-size: 90px;
+    text-align: center;
+}
+.row>.tablink{
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    
+}
+.row>.col-sm-4:hover{
+  background-color: rgba(8, 8, 8, 0.986);
+    
+}
+.row>.col-sm-4>a{
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+}
+#pizza{
+    background-color: aliceblue;
+    color: black;
+}
+.bg-light>h1>span{
+    background-color:gray;
+     border-radius:5px;
+ justify-content: flex-end;
+}
+/* about */
+#about{
+    background-color: rgb(71, 70, 69);
+}
+#about>h1{
+ color: whitesmoke;
+ text-align: center;
+ font-size: 80px;
+}
+/* #about>.content>p{
+ color: whitesmoke;
+ text-align: center;
+ font-size: 20px;
+}
+#about>.content>p>img{
+ justify-content: space-between;
+} */
